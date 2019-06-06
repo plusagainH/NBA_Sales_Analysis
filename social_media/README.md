@@ -3,6 +3,7 @@
 ### 實作1:利用Reddit上某些場次比賽的upward number(類似讚數)、comment number及該比賽觀眾數當training data，產生一個model，未來便可利用此model和upward number、comment number來預測觀眾人數
 ### 實作2:使用情緒分析套件分析網友回文內容，藉以得知某個時期大眾對該球隊的反應
 
+
 ## 流程
 ### 實作1:
 - (1)爬NBA網站獲得賽程和觀眾人數資料
