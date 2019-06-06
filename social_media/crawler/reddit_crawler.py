@@ -51,11 +51,11 @@ for i in range(len(team)):
         
     post = sorted(post, key=itemgetter('num_comments'))[-4:-1]
     
-    reddit = praw.Reddit(client_id='ik3Uedzdak04Ew',
-                         client_secret='xKeofsZzPncDF-pGYy5eJOYmbdY',
+    reddit = praw.Reddit(client_id='YOUR_ID',
+                         client_secret='YOUT_SECRET',
                          user_agent='crawler',
-                         username='bsg05316',
-                         password='security@plus')
+                         username='YOUR_USERNAME',
+                         password='YOUR_PASSWORD')
     
     submissions=[]
     m=0
